@@ -22,14 +22,11 @@
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
   background-color: #131313;
   height: 83px;
 }
 
 .main-container {
-  /* width: 1256px;
-  margin: 0 auto; */
   margin: 0 auto;
 }
 
@@ -98,6 +95,11 @@
   border-radius: 2px;
 }
 
+.container-btn:hover {
+  opacity: 85%;
+  cursor: pointer;
+}
+
 .container-number {
   display: flex;
   justify-content: flex-end;
@@ -116,14 +118,14 @@
 }
 
 .container-text {
+  display: flex;
+  flex-direction: column;
   width: 676.11px;
-  height: 499px;
   top: 277px;
   left: 134px;
   border-radius: 2px;
   border: 1px;
   padding-top: 194px;
-  margin-right: 537px;
 }
 
 .p-header {
@@ -150,15 +152,15 @@
 .calculate {
   font-family: 'NunitoSans-Italic';
   font-size: 11px;
-  width: 207px;
+  width: 300px;
   height: 51px;
   background-color: transparent;
-  /* background-color: #e3b873; */
   color: #ffffff;
   border-radius: 2px;
   border-color: #ffffff;
   border: 1;
-  margin-right: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .calculate:hover {
@@ -169,13 +171,14 @@
 .submit {
   font-family: 'NunitoSans-Italic';
   font-size: 11px;
-  width: 207px;
+  width: 300px;
   height: 51px;
   background-color: transparent;
   color: #ffffff;
   border-radius: 2px;
   border-color: #ffffff;
   border: 1;
+  cursor: pointer;
 }
 
 .submit:hover {
@@ -344,7 +347,6 @@
   text-align: center;
   color: #ffffff;
   margin-top: 268px;
-  margin-left: 47px;
 }
 
 .textandlogo__camera {
@@ -352,7 +354,6 @@
   color: #e3b873;
   width: 32.77px;
   height: 28px;
-  margin-left: 635px;
   margin-top: 13px;
 }
 
@@ -361,7 +362,6 @@
   color: #e3b873;
   width: 27.99px;
   height: 28px;
-  margin-left: 635px;
   margin-top: 13px;
 }
 
@@ -397,7 +397,6 @@
   width: 120px;
   height: 120px;
   margin-top: -285px;
-  margin-left: 560px;
 }
 
 .textandlogo__mobile {
@@ -417,7 +416,7 @@
   line-height: 37px;
   letter-spacing: 0em;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 200px;
   color: #363636;
 }
 
@@ -426,7 +425,7 @@
 }
 
 .textandlogo2 {
-  margin-top: 269.59px;
+  margin-top: -120px;
 }
 
 .textandlogo__text2 {
@@ -437,7 +436,6 @@
   letter-spacing: 0em;
   text-align: center;
   color: #181818;
-  margin-left: 47px;
 }
 
 .textandlogo2__mobile {
@@ -521,8 +519,10 @@
 }
 
 .checkbox-and-input {
-  margin-left: 248px;
-  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .input-and-button__label {
@@ -573,7 +573,7 @@
   text-align: left;
   color: #36363680;
   margin-left: 2px;
-  margin-bottom: -2px;
+  margin-bottom: 7px;
 }
 
 .input-and-button__button {
@@ -593,7 +593,6 @@
 }
 
 .checkbox {
-  margin-left: 240px;
   margin-top: 33px;
 }
 
@@ -638,17 +637,18 @@
 }
 
 .measurement__block {
-  /* width: 1340px; */
+  width: 1100px;
   height: 725.44px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 200px;
 }
 
 .measurement__points {
-  width: 703px;
-  height: 645px;
-  margin-top: 141px;
-  margin-left: 116px;
+  width: 350px;
+  height: 250px;
+  margin-top: -260px;
 }
 
 .measurements__points-block {
@@ -676,9 +676,9 @@
   height: 509px;
   background-color: #131313;
   box-shadow: 0px 30px 30px 0px #0000000d;
-  margin-top: 90px;
+  /* margin-top: 90px;
   margin-left: -234px;
-  margin-top: 150px;
+  margin-top: 150px; */
 }
 
 .measurement__numbers {
@@ -889,6 +889,8 @@
 }
 
 .team__fantasies {
+  display: flex;
+  justify-content: center;
   font-family: 'YesevaOne-Regular';
   font-size: 27px;
   font-weight: 400;
@@ -901,6 +903,9 @@
 }
 
 .team__ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-size: 20px;
   font-weight: 400;
   line-height: 38px;
@@ -921,36 +926,6 @@
   text-decoration: underline;
 }
 
-.teams__styles-1 {
-  width: 353.81px;
-  height: 556.86px;
-  background-image: url(../images/Style1.jpg);
-  margin-top: -800px;
-}
-
-.teams__styles-2 {
-  width: 354px;
-  height: 275px;
-  background-image: url(../images/Style2.jpg);
-  margin-top: -625px;
-  margin-left: 853px;
-}
-
-.teams__styles-3 {
-  width: 353.81px;
-  height: 349.47px;
-  background-image: url(../images/Style3.jpg);
-  margin-top: 390px;
-}
-
-.teams__styles-4 {
-  width: 353.81px;
-  height: 625.23px;
-  background-image: url(../images/Style4.jpg);
-  margin-left: 854px;
-  margin-top: -701px;
-}
-
 .reviews__clientsandlogo {
   margin-left: 0;
 }
@@ -960,7 +935,6 @@
   width: 114px;
   height: 27.62px;
   color: #e3b873;
-  margin-left: 596px;
   margin-top: 13px;
 }
 
@@ -976,7 +950,6 @@
   letter-spacing: 0em;
   text-align: center;
   color: #181818;
-  margin-left: 47px;
 }
 
 .reviews__text {
@@ -1256,6 +1229,7 @@
   color: #fff;
   justify-content: center;
   align-items: center;
+  margin-left: 20px;
 }
 .checkbox3__fake::before {
   content: url(../images/Check\ mark.svg);
@@ -1308,6 +1282,10 @@
 }
 
 .contacts__adress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 589px;
   height: 120;
   background-color: transparent;
@@ -1322,7 +1300,6 @@
   text-align: center;
   color: #e3b873;
   margin-top: 70px;
-  margin-left: -350px;
 }
 
 .contacts__adress-block {
@@ -1334,7 +1311,6 @@
   background-image: url(../images/Email.svg);
   width: 28px;
   height: 28px;
-  margin-left: 82px;
   margin-right: 15px;
 }
 
@@ -1367,7 +1343,6 @@
   background-image: url(../images/Completed\ projects\ mobile.jpg);
   width: 340px;
   height: 241.35px;
-  margin-left: 5px;
 }
 
 .projects-main2 {
@@ -1390,7 +1365,7 @@
   height: 36px;
   border-radius: 50%;
   border: 0;
-  margin-left: 130px;
+  margin-left: 120px;
 }
 
 .projects__arrows {
@@ -1405,10 +1380,12 @@
 /* mobile version */
 
 @media only screen and (max-width: 1300px) {
-  .container-text {
+  .container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+  }
+
+  .container-text {
     width: 375px;
     height: 476px;
     margin: 0 auto;
@@ -1465,7 +1442,7 @@
 
   .calculate {
     width: 338.61px;
-    height: 51px;
+    height: px;
     margin-bottom: 26px;
   }
 
@@ -1523,6 +1500,7 @@
 
   .projects-main2 {
     display: flex;
+    justify-content: center;
     font-size: 11px;
     font-weight: 400;
     line-height: 17px;
@@ -1531,7 +1509,7 @@
     color: #ffffff;
     padding-top: 30px;
     padding-bottom: 65px;
-    margin-left: 20px;
+    text-align: left;
   }
 
   .projects-header {
@@ -1584,7 +1562,6 @@
     display: flex;
     margin-top: -140px;
     margin-bottom: 300px;
-    margin-left: -24px;
   }
 
   .team__mobile-arrows {
@@ -1593,7 +1570,7 @@
 
   .projects__headers {
     margin-top: -155px;
-    margin-left: 5px;
+    margin-left: 35px;
   }
 
   .projects__headers-block2 {
@@ -1681,7 +1658,7 @@
     background-image: url(../images/Rectangle__mobile.svg);
     width: 55px;
     height: 1.54px;
-    margin-top: 73px;
+    margin-top: 100px;
   }
 
   .simple-text__mobile {
@@ -1691,22 +1668,20 @@
     letter-spacing: 0em;
     text-align: center;
     color: #ffffff;
-    margin-top: 20px;
+    margin-top: 80px;
   }
 
-  .checkbox-and-input__mobile {
-    width: 340px;
-    height: 311px;
+  .checkbox-and-input__mobile:nth-of-type(even) {
+    display: none;
   }
 
   .inputWrapper4 {
     margin-left: 0;
+    padding-left: 20px;
   }
 
   #input-and-button__input4 {
-    width: 340px;
     border-bottom: 1px solid #ffffff80;
-
     background-color: #131313;
   }
 
@@ -1731,7 +1706,7 @@
     letter-spacing: 0em;
     text-align: center;
     color: #ffffff;
-    margin-top: -32px;
+    margin-top: 125px;
   }
 
   .types {
@@ -1778,7 +1753,7 @@
     background-image: url(../images/Redecorating-mobile.jpg);
     width: 340px;
     height: 365.15px;
-    margin-left: 180px;
+    margin-left: 200px;
     margin-top: 300px;
     margin-bottom: 200px;
     margin-right: 0;
@@ -1788,7 +1763,7 @@
     background-image: url(../images/Overhaul-mobile.jpg);
     width: 340px;
     height: 365px;
-    margin-left: 180px;
+    margin-left: 200px;
     margin-top: -20px;
     margin-right: 0;
   }
@@ -1797,7 +1772,7 @@
     background-image: url(../images/Designer\ Repair-mobile.jpg);
     width: 340px;
     height: 365px;
-    margin-left: 180px;
+    margin-left: 200px;
     margin-top: 179px;
     margin-right: 0;
   }
@@ -1853,6 +1828,7 @@
   .team__mobile {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-left: -20px;
   }
 
@@ -1864,7 +1840,6 @@
     letter-spacing: 0em;
     text-align: center;
     color: #e3b873;
-    margin-left: 0;
     margin-top: 40px;
   }
 
@@ -1873,10 +1848,6 @@
     width: 340px;
     height: 242px;
     margin-top: 30px;
-  }
-
-  .team__mobile-arrows {
-    margin-left: 90px;
   }
 
   .reviews {
@@ -1908,8 +1879,7 @@
   }
 
   #contacts__block-second {
-    padding-top: 60px;
-    margin-left: -21px;
+    padding-top: 260px;
   }
 
   #contacts__btn-second {
@@ -1942,7 +1912,7 @@
     background-image: url(../images/Social\ networks.png);
     width: 98.89px;
     height: 39px;
-    margin-top: 23px;
+    margin-top: 10px;
   }
 
   .main-container {
