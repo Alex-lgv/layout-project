@@ -22,12 +22,14 @@
 .container {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #131313;
   height: 83px;
 }
 
 .main-container {
-  width: 1256px;
+  /* width: 1256px;
+  margin: 0 auto; */
   margin: 0 auto;
 }
 
@@ -636,7 +638,7 @@
 }
 
 .measurement__block {
-  width: 1340px;
+  /* width: 1340px; */
   height: 725.44px;
   display: flex;
   margin-top: 200px;
@@ -1404,6 +1406,9 @@
 
 @media only screen and (max-width: 1300px) {
   .container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 375px;
     height: 476px;
     margin: 0 auto;
@@ -1456,7 +1461,6 @@
   .container-navigation {
     display: flex;
     justify-content: center;
-    padding-left: 20px;
   }
 
   .calculate {
@@ -1610,10 +1614,6 @@
 
   .textandlogo__logo {
     display: none;
-  }
-
-  .calculate {
-    margin-right: 0;
   }
 
   .online-control {
