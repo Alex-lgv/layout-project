@@ -1921,4 +1921,43 @@
     margin: 0;
     padding: 0;
   }
+
+  .deviceError {
+    display: none;
+  }
+
+  .deviceErrorText {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  header {
+    display: none;
+  }
+
+  main {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .deviceError {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background-image: url(../images/Device\ error.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .deviceErrorText {
+    display: flex;
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+  }
 }
