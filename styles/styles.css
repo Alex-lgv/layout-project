@@ -1377,6 +1377,14 @@
   display: none;
 }
 
+.deviceError {
+  display: none;
+}
+
+.deviceErrorText {
+  display: none;
+}
+
 /* mobile version */
 
 @media only screen and (max-width: 1300px) {
